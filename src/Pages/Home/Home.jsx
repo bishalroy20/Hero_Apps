@@ -1,14 +1,21 @@
 import React from 'react';
+import Banner from '../../Components/Banner/Banner'
+import HeroApp from '../../Components/HeroApp/HeroApp'
+import TreandingApp from '../TreandingApp/TreandingApp';
 import { useLoaderData } from 'react-router';
 
 
 const Home = () => {
-    // const data = useLoaderData();
-    // console.log(data)
+    const data = useLoaderData();
+    // console.log(data);
+
     return (
         <div>
-            
-             <h1>this is home page</h1>
+            <Banner></Banner>
+            <HeroApp></HeroApp> 
+
+            <TreandingApp key={data.id} data={data}></TreandingApp>
+
         </div>
     );
 };

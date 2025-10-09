@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
 import logo from '../../assets/logo.png'
+import { FaGithub } from "react-icons/fa";
+
 
 const Navbar = () => {
     const links = <>
@@ -11,7 +13,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar bg-white text-black">
+    <div className="navbar bg-[#ffffff] shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -39,19 +41,21 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to='/'>
-        <div className="flex justify-around items-center">
+        <div className="flex justify-around items-center text-[#632ee3] font-semibold">
             <img className="w-[40px]" src={logo} alt="" />
-            <a className="text-xl">Hero.Io</a>
+            <h1 className="text-xl">Hero.Io</h1>
         </div>
         </Link>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      <div className="navbar-center hidden lg:flex ">
+        <ul className="menu menu-horizontal px-1 text-black">
         {links}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end " >
+        <a className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white" href="https://github.com/bishalroy20" target="_blank" >
+          <FaGithub />Contribute
+        </a>
       </div>
     </div>
   );

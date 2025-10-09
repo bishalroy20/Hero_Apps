@@ -1,0 +1,436 @@
+
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusJEx2VUdhu5CN69YXGzShVaRMOdYA3X0oA&s",
+    "title": "CodeCraft IDE",
+    "companyName": "DevForge Inc.",
+    "id": 1,
+    "description": "CodeCraft IDE is a lightweight, high-performance code editor designed for modern web development. It supports multiple languages, real-time collaboration, and AI-assisted debugging.",
+    "size": 120,
+    "reviews": 1345,
+    "ratingAvg": 4.6,
+    "downloads": 58000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://img.utdstc.com/icon/821/26e/82126e0b17e349c447c69cdffbde25a917363ecd6757bf33243fe1d2de9ab696:200",
+    "title": "PixelFlow",
+    "companyName": "CreativeBits",
+    "id": 2,
+    "description": "PixelFlow is a dynamic design tool for UI/UX professionals. It offers intuitive drag-and-drop features, responsive previews, and seamless integration with Figma and Adobe XD.",
+    "size": 95,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeXy0Jjumt3YnabhRAo2NcaKHGMS4DUnb4w&s",
+    "title": "DataNest",
+    "companyName": "CloudHive",
+    "id": 3,
+    "description": "DataNest is a secure cloud-based data warehouse solution built for scalability and speed. It supports real-time analytics, automated backups, and seamless API access.",
+    "size": 250,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 87000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1385 }
+    ]
+  },
+  {
+    "image": "https://www.prosoftly.com/wp-content/uploads/2020/01/task.png",
+    "title": "TaskPilot",
+    "companyName": "WorkflowX",
+    "id": 4,
+    "description": "TaskPilot is a productivity app designed for teams and freelancers. It features smart scheduling, Kanban boards, and AI-generated task suggestions to boost efficiency.",
+    "size": 80,
+    "reviews": 765,
+    "ratingAvg": 4.2,
+    "downloads": 39000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 205 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/26/e1/7226e13b-b658-9b05-bc75-e52ea0e2114c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1200x600wa.png",
+    "title": "SecureVault",
+    "companyName": "CyberCore",
+    "id": 5,
+    "description": "SecureVault is a military-grade encryption tool for personal and enterprise use. It offers biometric access, encrypted cloud sync, and zero-knowledge architecture.",
+    "size": 150,
+    "reviews": 1120,
+    "ratingAvg": 4.7,
+    "downloads": 51000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 625 }
+    ]
+  },
+  {
+    "image": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5fd2fc09-7942-46f5-8d6b-4c150464aad8.png?auto=format&q=50",
+    "title": "EduSpark",
+    "companyName": "Learnify",
+    "id": 6,
+    "description": "EduSpark is an interactive learning platform offering courses in coding, design, and business. It includes gamified lessons, live mentoring, and certification paths.",
+    "size": 200,
+    "reviews": 1450,
+    "ratingAvg": 4.5,
+    "downloads": 62000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/3t52LWv2rHsHPUxPXP4xj8e_4hDaIZpyBPvosLIWkilO0pVAxTAq6QMNg30ghGSgFLoA=w240-h480-rw",
+    "title": "StreamSync",
+    "companyName": "MediaNest",
+    "id": 7,
+    "description": "StreamSync is a high-performance media streaming engine optimized for low-latency delivery. It supports adaptive bitrate, multi-device sync, and real-time analytics.",
+    "size": 300,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://www.mashauri.org/wp-content/uploads/2024/10/DALL%C2%B7E-2024-10-30-17.44.34-An-illustration-of-a-traditional-textbook-seamlessly-merged-with-a-computer.-The-computer-screen-and-keyboard-are-embedded-deeper-into-the-open-pages-300x300.webp",
+    "title": "DesignForge",
+    "companyName": "PixelWorks",
+    "id": 8,
+    "description": "DesignForge is a collaborative design suite for creative teams. It features real-time editing, asset libraries, and export tools for web, mobile, and print.",
+    "size": 180,
+    "reviews": 890,
+    "ratingAvg": 4.4,
+    "downloads": 52000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/code-pulse-logo_7688-2110.jpg",
+    "title": "CodePulse",
+    "companyName": "DevSync",
+    "id": 9,
+    "description": "CodePulse is a real-time code collaboration tool for distributed teams. It supports live editing, voice chat, and Git integration for seamless development.",
+    "size": 110,
+    "reviews": 760,
+    "ratingAvg": 4.1,
+    "downloads": 43000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://cdn.shopify.com/app-store/listing_images/eba8c8c40ea729dafd32cb130b1bad91/icon/CMCp2cu2pokDEAE=.png",
+    "title": "Formify",
+    "companyName": "UXLab",
+    "id": 10,
+    "description": "Formify is a form builder for modern web apps. It includes drag-and-drop fields, validation rules, and integrations with databases and email services.",
+    "size": 90,
+    "reviews": 540,
+    "ratingAvg": 4.0,
+    "downloads": 31000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 200 }
+    ]
+    },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbUzYzs51Pd2WhfuxkkPqiP21AU8DkyXLTMw&s",
+    "title": "NoteNest",
+    "companyName": "MindSync",
+    "id": 11,
+    "description": "NoteNest is a smart note-taking app that organizes your thoughts with AI tagging, voice-to-text transcription, and cloud sync across devices. Ideal for students, writers, and professionals.",
+    "size": 85,
+    "reviews": 620,
+    "ratingAvg": 4.3,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 165 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/5SLG2s107uPPgbkjFsKxdEMI8P85FDxZzZ2lXsryBxP3DhcH49ILOtW7verzgV6Xoavz",
+    "title": "FitTrack",
+    "companyName": "HealthEdge",
+    "id": 12,
+    "description": "FitTrack is a fitness tracker app that monitors workouts, sleep, and nutrition. It includes personalized plans, progress analytics, and smartwatch integration.",
+    "size": 130,
+    "reviews": 880,
+    "ratingAvg": 4.5,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://logopond.com/logos/79bbdb1f43fe16bb0cc2f2e6d338493e.png",
+    "title": "TravelMate",
+    "companyName": "GlobeTrek",
+    "id": 13,
+    "description": "TravelMate is a trip planning app that helps users discover destinations, book hotels, and manage itineraries. It features offline maps, local guides, and budget tracking.",
+    "size": 140,
+    "reviews": 1020,
+    "ratingAvg": 4.6,
+    "downloads": 49000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 465 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmYhnECWHufFWENwTdL3bFM5-VDP7ti7TeQg&s",
+    "title": "BudgetWise",
+    "companyName": "Finlytics",
+    "id": 14,
+    "description": "BudgetWise is a personal finance app that tracks expenses, sets savings goals, and offers insights into spending habits. It supports bank sync and bill reminders.",
+    "size": 100,
+    "reviews": 740,
+    "ratingAvg": 4.2,
+    "downloads": 31000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 225 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGeFIl2O4-pXsPvZAD-zkhzGp0pBaxCDwpUw&s",
+    "title": "MindBloom",
+    "companyName": "ZenTech",
+    "id": 15,
+    "description": "MindBloom is a mindfulness and meditation app offering guided sessions, breathing exercises, and sleep stories. It helps users reduce stress and improve focus.",
+    "size": 75,
+    "reviews": 910,
+    "ratingAvg": 4.7,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/png-vector/20250930/ourlarge/pngtree-shopsmart-logo-shopping-cart-apple-and-bags-flat-line-icon-concept-png-image_17645782.webp",
+    "title": "ShopSmart",
+    "companyName": "RetailX",
+    "id": 16,
+    "description": "ShopSmart is a smart shopping assistant that compares prices, tracks deals, and recommends products based on user preferences. It supports barcode scanning and wishlist sync.",
+    "size": 90,
+    "reviews": 680,
+    "ratingAvg": 4.3,
+    "downloads": 33000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_f31a088e7442a3f80431c151bb9783ec.webp",
+    "title": "QuizMaster",
+    "companyName": "EduPlay",
+    "id": 17,
+    "description": "QuizMaster is an educational quiz app with thousands of questions across subjects. It includes multiplayer mode, leaderboard rankings, and adaptive difficulty.",
+    "size": 110,
+    "reviews": 790,
+    "ratingAvg": 4.4,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 285 }
+    ]
+  },
+  {
+    "image": "https://external-preview.redd.it/p9Eu-ASHphivFkUlcnB4B0JWNU7rFz5XdGymki81Mk4.jpg?auto=webp&s=4c685967354a736d49046025558cb8a29617891b",
+    "title": "CodeSnap",
+    "companyName": "DevTools",
+    "id": 18,
+    "description": "CodeSnap is a snippet manager for developers. It allows users to save, organize, and share code snippets with syntax highlighting and cloud sync.",
+    "size": 70,
+    "reviews": 560,
+    "ratingAvg": 4.1,
+    "downloads": 29000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpO9WHNrERYIJNpJgEM_HOgHwX_tDRmUdGRg&s",
+    "title": "EventEase",
+    "companyName": "PlanIt",
+    "id": 19,
+    "description": "EventEase is an event planning app that helps users create, manage, and promote events. It includes RSVP tracking, reminders, and venue suggestions.",
+    "size": 95,
+    "reviews": 610,
+    "ratingAvg": 4.2,
+    "downloads": 31000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "image": "https://www.teachingabroaddirect.co.uk/storage/Banners%20and%20Logos/tefl/russia/langbridge/langbridge-logo.jpg",
+    "title": "LangBridge",
+    "companyName": "PolyLingua",
+    "id": 20,
+    "description": "LangBridge is a language learning app offering interactive lessons, speech recognition, and cultural insights. It supports over 30 languages and tracks progress with gamified rewards.",
+    "size": 150,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 44000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/blue-social-media-logo_197792-1759.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 21,
+    "description": "Facebook is a global social networking platform that allows users to connect, share content, and engage with communities. It offers features like news feeds, groups, events, and marketplace, making it a central hub for personal and professional interactions.",
+    "size": 250,
+    "reviews": 5800000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 320000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2930000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 22,
+    "description": "Instagram is a photo and video sharing social media platform known for its visual storytelling. It features posts, stories, reels, and direct messaging, and is widely used by individuals, influencers, and brands to build communities and share creative content.",
+    "size": 180,
+    "reviews": 4200000,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 2050000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/messenger-logo_1273375-1279.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "id": 23,
+    "description": "Messenger is Meta’s dedicated messaging app that enables users to send text, voice, and video messages. It supports group chats, reactions, stickers, and cross-platform communication with Facebook and Instagram users.",
+    "size": 150,
+    "reviews": 3100000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1350000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "id": 24,
+    "description": "WhatsApp is a secure messaging and calling app used by billions worldwide. It offers end-to-end encryption, group chats, voice and video calls, and media sharing, making it a trusted tool for personal and business communication.",
+    "size": 120,
+    "reviews": 6700000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 3870000 }
+    ]
+  }
+]
+

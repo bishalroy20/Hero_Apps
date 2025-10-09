@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusJEx2VUdhu5CN69YXGzShVaRMOdYA3X0oA&s",
+    "title": "CodeCraft IDE",
+    "companyName": "DevForge Inc.",
+    "id": 1,
+    "description": "CodeCraft IDE is a lightweight, high-performance code editor designed for modern web development. It supports multiple languages, real-time collaboration, and AI-assisted debugging.",
+    "size": 120,
+    "reviews": 1345,
+    "ratingAvg": 4.6,
+    "downloads": 58000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://img.utdstc.com/icon/821/26e/82126e0b17e349c447c69cdffbde25a917363ecd6757bf33243fe1d2de9ab696:200",
+    "title": "PixelFlow",
+    "companyName": "CreativeBits",
+    "id": 2,
+    "description": "PixelFlow is a dynamic design tool for UI/UX professionals. It offers intuitive drag-and-drop features, responsive previews, and seamless integration with Figma and Adobe XD.",
+    "size": 95,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQeXy0Jjumt3YnabhRAo2NcaKHGMS4DUnb4w&s",
+    "title": "DataNest",
+    "companyName": "CloudHive",
+    "id": 3,
+    "description": "DataNest is a secure cloud-based data warehouse solution built for scalability and speed. It supports real-time analytics, automated backups, and seamless API access.",
+    "size": 250,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 87000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1385 }
+    ]
+  },
+  {
+    "image": "https://www.prosoftly.com/wp-content/uploads/2020/01/task.png",
+    "title": "TaskPilot",
+    "companyName": "WorkflowX",
+    "id": 4,
+    "description": "TaskPilot is a productivity app designed for teams and freelancers. It features smart scheduling, Kanban boards, and AI-generated task suggestions to boost efficiency.",
+    "size": 80,
+    "reviews": 765,
+    "ratingAvg": 4.2,
+    "downloads": 39000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 205 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/26/e1/7226e13b-b658-9b05-bc75-e52ea0e2114c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1200x600wa.png",
+    "title": "SecureVault",
+    "companyName": "CyberCore",
+    "id": 5,
+    "description": "SecureVault is a military-grade encryption tool for personal and enterprise use. It offers biometric access, encrypted cloud sync, and zero-knowledge architecture.",
+    "size": 150,
+    "reviews": 1120,
+    "ratingAvg": 4.7,
+    "downloads": 51000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 625 }
+    ]
+  },
+  {
+    "image": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5fd2fc09-7942-46f5-8d6b-4c150464aad8.png?auto=format&q=50",
+    "title": "EduSpark",
+    "companyName": "Learnify",
+    "id": 6,
+    "description": "EduSpark is an interactive learning platform offering courses in coding, design, and business. It includes gamified lessons, live mentoring, and certification paths.",
+    "size": 200,
+    "reviews": 1450,
+    "ratingAvg": 4.5,
+    "downloads": 62000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/3t52LWv2rHsHPUxPXP4xj8e_4hDaIZpyBPvosLIWkilO0pVAxTAq6QMNg30ghGSgFLoA=w240-h480-rw",
+    "title": "StreamSync",
+    "companyName": "MediaNest",
+    "id": 7,
+    "description": "StreamSync is a high-performance media streaming engine optimized for low-latency delivery. It supports adaptive bitrate, multi-device sync, and real-time analytics.",
+    "size": 300,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://www.mashauri.org/wp-content/uploads/2024/10/DALL%C2%B7E-2024-10-30-17.44.34-An-illustration-of-a-traditional-textbook-seamlessly-merged-with-a-computer.-The-computer-screen-and-keyboard-are-embedded-deeper-into-the-open-pages-300x300.webp",
+    "title": "DesignForge",
+    "companyName": "PixelWorks",
+    "id": 8,
+    "description": "DesignForge is a collaborative design suite for creative teams. It features real-time editing, asset libraries, and export tools for web, mobile, and print.",
+    "size": 180,
+    "reviews": 890,
+    "ratingAvg": 4.4,
+    "downloads": 52000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 320 }
+    ]
+  }
+]

@@ -1,11 +1,13 @@
 import React from 'react';
-import Navbar from '../../components/Header/Navbar';
+import Navbar from '../../Components/Header/Navbar';
 import { Outlet } from 'react-router';
 import Footer from '../../Components/Footer/Footer';
 
 const Root = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        
+        
+        <div className='max-w-8xl mx-auto'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

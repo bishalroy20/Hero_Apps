@@ -2,11 +2,12 @@ import React from 'react';
 import {
     createBrowserRouter,
   } from "react-router";
-import Root from '../pages/Root/Root';
+import Root from '../Pages/Root/Root';
 import Home from '../Pages/Home/Home';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import AppList from '../Pages/AppList/AppList'
 import Installation from '../Pages/Installation/Installation';
+
 
 export const router = createBrowserRouter([
     {
@@ -19,10 +20,11 @@ export const router = createBrowserRouter([
                 index: true,
                 path:"/",
                 Component: Home,
-                // loader:()=>fetch('booksData.json'),
+                loader:()=>fetch('Data1.json'),
             },
             {
                 path: '/AppList',
+                loader:()=>fetch('Data2.json'),
                 Component:AppList
             },
             {
