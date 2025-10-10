@@ -5,11 +5,33 @@ import { FaGithub } from "react-icons/fa";
 import Loading from '../Loading/Loading';
 
 const Navbar = () => {
-    const links = <>
-        <Link to='/'><li className="m-2">Home</li></Link>
-      <Link to='/AppList'><li className="m-2">Apps</li></Link>
-      <Link to='/Installation'><li className="m-2">Installation</li></Link>
-    </>
+
+  
+    const links = (
+        <>
+          <NavLink
+            to="/"
+            className={({ isActive }) => `m-2 ${isActive ? 'text-blue-600 font-semibold' : 'text-black'}`}
+          >
+            <li>Home</li>
+          </NavLink>
+
+          <NavLink
+            to="/AppList"
+            className={({ isActive }) => `m-2 ${isActive ? 'text-blue-600 font-semibold' : 'text-black'}`}
+          >
+            <li>Apps</li>
+          </NavLink>
+
+          <NavLink
+            to="/Installation"
+            className={({ isActive }) => `m-2 ${isActive ? 'text-blue-600 font-semibold' : 'text-black'}`}
+          >
+            <li>Installation</li>
+          </NavLink>
+        </>
+      );
+
 
 
   return (
