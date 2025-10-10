@@ -1,22 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import { toast } from 'react-toastify';
-import { ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-
+import Downloads from '../../assets/icon-downloads.png';
+import Rating from '../../assets/icon-ratings.png';
+import Loading from '../../Components/Loading/Loading';
 
 export default function Installation() {
   const [appsData, setAppsData] = useState([]);
   const [installedApps, setInstalledApps] = useState([]);
   const [sortOrder, setSortOrder] = useState('default');
   const [filteredApps, setFilteredApps] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   // Load appsData from public folder
   useEffect(() => {
     fetch('/Data2.json')
       .then((res) => res.json())
-      .then((data) => setAppsData(data))
-      .catch((err) => console.error('Failed to load apps data:', err));
+      .then((data) => {
+        setAppsData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error('Failed to load apps data:', err);
+        setLoading(false);
+      });
   }, []);
 
   // Load installed apps from localStorage
@@ -31,9 +38,9 @@ export default function Installation() {
     let result = [...installedApps];
 
     if (sortOrder === 'asc') {
-      result.sort((a, b) => a.size - b.size);
+      result.sort((a, b) => a.downloads - b.downloads);
     } else if (sortOrder === 'desc') {
-      result.sort((a, b) => b.size - a.size);
+      result.sort((a, b) => b.downloads - a.downloads);
     }
 
     setFilteredApps(result);
@@ -47,9 +54,12 @@ export default function Installation() {
     toast.info('App uninstalled successfully');
   };
 
+  if (loading) return <Loading message="Loading installed apps..." />;
+
   return (
     <div className="bg-white min-h-screen px-6 py-10">
-       <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer position="top-right" autoClose={3000} />
+      
       {/* Title Section */}
       <div className="max-w-5xl mx-auto mb-8">
         <h1 className="text-3xl font-bold text-gray-800 text-center">Your Installed Apps</h1>
@@ -65,9 +75,9 @@ export default function Installation() {
             onChange={(e) => setSortOrder(e.target.value)}
             className="border border-gray-300 rounded px-2 py-1 text-sm text-gray-600"
           >
-            <option value="default">Sort By Size</option>
-            <option value="asc">Size: Low to High</option>
-            <option value="desc">Size: High to Low</option>
+            <option value="default">Sort By Download Count</option>
+            <option value="asc">Downloads: Low to High</option>
+            <option value="desc">Downloads: High to Low</option>
           </select>
         </div>
       </div>
@@ -95,11 +105,11 @@ export default function Installation() {
                   </h3>
                   <div className="flex gap-4 mt-1 text-sm text-gray-600">
                     <div className="flex items-center gap-1">
-                      <img src="/assets/icon-downloads.png" alt="Downloads" className="h-4 w-4" />
+                      <img src={Downloads} alt="Downloads" className="h-4 w-4" />
                       <span>{app.downloads.toLocaleString()}</span>
                     </div>
                     <div className="flex items-center gap-1">
-                      <img src="/assets/icon-ratings.png" alt="Rating" className="h-4 w-4" />
+                      <img src={Rating} alt="Rating" className="h-4 w-4" />
                       <span>{app.ratingAvg}</span>
                     </div>
                     <div className="flex items-center gap-1">

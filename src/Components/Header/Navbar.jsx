@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router";
 import logo from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
-
+import Loading from '../Loading/Loading';
 
 const Navbar = () => {
     const links = <>

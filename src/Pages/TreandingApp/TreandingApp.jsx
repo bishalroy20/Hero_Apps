@@ -26,9 +26,9 @@ const TreandingApp = ({data}) => {
 
             <Link to='/AppList'>
                 <div className="text-center my-8 " >
-                    <a className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white px-10" >
+                    <button className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white px-10" >
                       Show All
-                    </a>
+                    </button>
                   </div>
             </Link>
                 </div>
