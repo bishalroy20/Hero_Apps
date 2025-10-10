@@ -7,6 +7,7 @@ import Home from '../Pages/Home/Home';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import AppList from '../Pages/AppList/AppList'
 import Installation from '../Pages/Installation/Installation';
+import AppDetails from '../Pages/AppDetails/AppDetails';
 
 
 export const router = createBrowserRouter([
@@ -28,15 +29,16 @@ export const router = createBrowserRouter([
                 Component:AppList
             },
             {
-                path: 'Installation',
+                path: '/Installation',
                 // loader:()=>fetch('booksData.json'),
                 Component:Installation
             },
-            // {
-            //     path: '/bookDetails/:id',
-            //     loader:()=>fetch('./booksData.json'),
-            //     Component:BookDetails
-            // }
+           {
+                path: "/AppDetails/:id",
+                element: <AppDetails />
+            }
+
+
       ]
     },
 ]);
